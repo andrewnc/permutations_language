@@ -1,6 +1,6 @@
 from datasets import load_dataset, load_metric
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer, RobertaConfig, RobertaForMaskedLM
-import torch
+import tensorflow as tf
 from fast_soft_trainer import FastSoftTrainer
 
 config = RobertaConfig(

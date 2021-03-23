@@ -1,7 +1,20 @@
 # permutations_language
 
-EMNLP code to build a language model using : https://github.com/google-research/fast-soft-sort may also wish to use https://github.com/google-research/google-research/tree/master/perturbations
+EMNLP code to build a language model using :  https://github.com/google-research/google-research/tree/master/perturbations and huggingface
 
-and huggingface
 
-uses huggingface `transformers` and `datasets`
+```
+pip install tensorflow --upgrade
+pip install tensorflow_probability
+pip install transformers
+pip install datasets
+```
+
+
+## Usage
+
+`python run.py`
+
+## Organization
+
+The file `fast_soft_trainer.py` contains a huggingface Trainer with the FenchelYoungLoss.
